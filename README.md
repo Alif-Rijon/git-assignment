@@ -90,8 +90,6 @@ git push --all origin
 ### Commit History
 ![Commits](images/graph.png)
 
-### Pull Request / Repository View
-![Repo](images/repo.png)
 
 ## Merge vs Rebase
 
