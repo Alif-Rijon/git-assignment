@@ -63,3 +63,54 @@ Used to preserve branch history:
 
 ```bash
 git merge --no-ff feature/login
+```
+## Commands Used
+
+git init  
+git branch  
+git checkout -b develop  
+git checkout -b feature/login  
+git checkout -b feature/payment  
+git checkout -b feature/profile  
+git checkout -b bugfix/login-error  
+
+git merge  
+git merge --no-ff feature/login  
+git rebase develop  
+git rebase -i HEAD~5  
+
+git log --oneline --graph --all  
+git push --all origin
+
+## Screenshots
+
+### Branching
+![Branches](images/branch.png)
+
+### Commit History
+![Commits](images/graph.png)
+
+### Pull Request / Repository View
+![Repo](images/repo.png)
+
+## Merge vs Rebase
+
+### Merge
+- Combines branches using a merge commit
+- Preserves full history
+- Used for team collaboration
+
+### Rebase
+- Rewrites commit history
+- Creates linear history
+- Used for clean project structure
+
+## Squash vs Reword
+
+### Squash
+- Combines multiple commits into one
+- Used to clean commit history
+
+### Reword
+- Changes commit message
+- Used to improve readability and clarity
